@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="panel_hor_margin">20dp</dimen>
+    <dimen name="button_hor_margin">5dp</dimen>
+    <dimen name="splash_ic_size">140dp</dimen>
+    <dimen name="tab_indicator_height">4dp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/home_menu">
+
+    <fragment
+        android:id="@+id/home_menu"
+        android:name="com.nauval.aplikasigithubuser.HomeUserListFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home_user_list" />
+    <fragment
+        android:id="@+id/search_menu"
+        android:name="com.nauval.aplikasigithubuser.SearchUserFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search_user" />
+    <fragment
+        android:id="@+id/favorite_menu"
+        android:name="com.nauval.aplikasigithubuser.FavoriteUserFragment"
+        android:label="@string/favorite"
+        tools:layout="@layout/fragment_favorite_user" />
+    <fragment
+        android:id="@+id/setting_menu"
+        android:name="com.nauval.aplikasigithubuser.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting" />
+
+</navigation>

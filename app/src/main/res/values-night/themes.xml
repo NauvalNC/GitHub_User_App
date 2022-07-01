@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AplikasiGithubUser" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:forceDarkAllowed" tools:targetApi="q">false</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_green</item>
+        <item name="colorPrimaryVariant">@color/dark_green</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/darker_green</item>
+        <item name="colorSecondaryVariant">@color/darker_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <item name="colorAccent">@color/light_green</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <item name="actionBarStyle">@style/DarkActionBar</item>
+
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowBackground">@color/light_black</item>
+    </style>
+
+    <style name="DarkActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/dark_green</item>
+        <item name="titleTextColor">@color/purple_200</item>
+    </style>
+
+    <style name="TextTitle">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextPrompt">
+        <item name="android:textSize">@dimen/text_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextTitle.List">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="TextSubtitle">
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="TextParagraph">
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="FoundInfoBanner">
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <style name="Panel">
+        <item name="android:background">@color/dark_green</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Panel.Tab">
+        <item name="android:background">@color/medium_black</item>
+    </style>
+
+    <style name="Panel.Tab.Switcher">
+        <item name="android:background">@color/dark_green</item>
+        <item name="tabIndicatorColor">@color/light_green</item>
+        <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+    </style>
+</resources>
